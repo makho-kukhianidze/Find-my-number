@@ -1,0 +1,113 @@
+*{
+    margin: 0;
+    padding: 0;
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+  }
+  body{
+      background: url('../img/a.jpg') no-repeat center center fixed;
+      background-size: cover;
+  }
+.main-container {
+display: -webkit-box;
+display: -ms-flexbox;
+display: flex;
+-webkit-box-pack: center;
+    -ms-flex-pack: center;
+        justify-content: center;
+-webkit-box-align: center;
+    -ms-flex-align: center;
+        align-items: center;
+-webkit-box-orient: vertical;
+-webkit-box-direction: normal;
+    -ms-flex-direction: column;
+        flex-direction: column;
+text-align: center;
+margin-bottom: 0px;
+padding: 12px;
+}
+.main-container div{
+    background-color: rgb(163 10 15 / 61%);
+    width: 619px;
+    margin: 2px;
+    padding: 18px;
+    border: 2px solid red;
+}
+h1{
+    background: #ffffff;
+    color: #3948ad;
+    padding: 4px;
+    margin: 5px;
+    font-size: 22px;
+    font-weight: 900;
+}
+h3{
+    background: #ffffff;
+    color: #3948ad;
+    padding: 4px;
+    margin: 5px;
+}
+.bg{
+    background-color: rgba(117, 58, 172, 0.774);
+}
+.box p{
+    padding: 4px;
+    font-weight: 900;
+    font-size: 20px;
+}
+input{
+    width: 300px;
+    padding: 10px;
+    outline: none;
+    border: 1px solid rgb(53, 52, 52);
+}
+input:hover{
+    border: 1px solid rgb(8, 8, 8);
+}
+button{
+    padding: 8px;
+    background-color: rgba(72, 139, 226, 0.58);
+    border: 1px solid #969292;
+    color: white;
+    font-size: 17px;
+    transition: all 0.4s linear;
+    cursor: pointer;
+}
+button:hover{
+    background-color: rgba(27, 85, 160, 0.58);;
+    border: 1px solid #2c2b2b;
+    color: white;
+}
+h3{
+    background: #3f51b561;
+    color: white;
+    padding: 4px;
+    margin:5px;
+}
+.YourNumberForSpan{
+    background: rgb(78, 118, 158);
+    color: rgb(235, 124, 124);
+    padding: 4px;
+    margin:5px;
+}
+p{
+    padding: 8px;
+    font-weight: 900;
+    font-size: 22px;
+    color: white;
+}
+@media only screen and (max-width: 500px) {
+    .main-container div{
+        background-color: rgb(163 10 15 / 61%);
+        width: 100%;
+        margin: 2px;
+        padding: 18px;
+        border: 2px solid red;
+    }
+    input {
+        width: 249px;
+        padding: 10px;
+        outline: none;
+        border: 1px solid rgb(53, 52, 52);
+    }
+  }

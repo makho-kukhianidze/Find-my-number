@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="description" content="my project">
+    <meta name="keywords" content="HTML,CSS,JavaScript">
+    <meta name="author" content="Makho kukhianidze">
+    <meta property="og:url" content="https://makho-kukhianidze.github.io/Architectural-Design-Website/" />
+    <meta property="og:type" content="My project" />
+    <meta property="og:title" content="My Practice work" />
+    <meta property="og:description" content="Game - HTML,CSS,JavaScript" />
+    <meta property="og:image" content="assets/icons/m.png" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="assets/css/reset.css">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <title>Find my number</title>
+    <link rel="icon" href="assets/icons/m.png" type="image/x-icon">
+</head>
+
+<body>
+    <div class="main-container">
+        <div>
+            <h1>Find my number</h1>
+            <p>You should find number between 1 and 20. (You have 10 attempts)</p>
+            <form class="form">
+                <input type="number" id="userInputNumber">
+                <button id="btnUserInputNumber">My number</button>
+            </form>
+        </div>
+        <div class="info-box">
+            <p>Your number: <span class="YourNumberForSpan"> </span></p>
+            <p>You have <span class="tenAttempts">10</span>/10 attempts</p>
+            <p class="TooLowHight"></p>
+        </div>
+    </div>
+    <script src="assets/javascript/findMyNumber.js"></script>
+</body>
+
+</html>
